@@ -10,7 +10,6 @@ We use these factors to predict if the applicant is a healthy loan or a high-ris
 The loan status variables on the original database have value counts of healthy loan having 75,036 data points and high-risk having 2,500 data points. On the resampled database they both had 56,271 value counts
 
 The data was separted then split into traing and testing datasets using train_test_split. Then created a Logistic Regression Model with both the original model and the resampled model. Finally both made predictions and a classification report to compare them to one another.
-
 Model 1:
               precision    recall  f1-score   support
 
